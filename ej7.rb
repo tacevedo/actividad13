@@ -1,6 +1,6 @@
 inventario = {"Notebooks": 4, "PC Escritorio": 6, "Routers": 10, "Impresoras": 6}
 
-
+opcion = ''
 until opcion == 7 do
   print "Ingresa opcion: 1: agregar, 2:eliminar, 3: actualizar, 4: stock total, 5: item con mas stock, 6: existe? "
   opcion = gets.chomp
@@ -17,7 +17,8 @@ until opcion == 7 do
     puts '5'
   when "6"
     puts '6'
-  else
+  when "7"
+
     break
   end
 end
