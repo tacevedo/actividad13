@@ -47,5 +47,8 @@ until opcion == 7 do
   when "7"
     puts 'Adios'
     break
+
+  else
+    puts "opcion incorrecta"
   end
 end
